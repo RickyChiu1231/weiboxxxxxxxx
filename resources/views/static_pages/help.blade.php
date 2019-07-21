@@ -1,5 +1,5 @@
 @extends('layouts.default')
-<title>@yield('title', 'Help')</title>
+@yield('title', 'Help')
 
 @section('content')
   <h1>HelpScreen</h1>
