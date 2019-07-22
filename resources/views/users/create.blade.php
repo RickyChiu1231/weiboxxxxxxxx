@@ -1,6 +1,6 @@
 @extends('layouts.default')
-@section('title', 'Help')
+@section('title', 'Register')
 
 @section('content')
-  <h1>HelpScreen</h1>
+<h1>Register</h1>
 @stop
