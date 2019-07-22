@@ -10653,3 +10653,31 @@ nav.navbar-expand-lg {
   margin-bottom: 30px;
 }
 
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #073;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer a {
+  color: #000;
+}
+
+footer a:hover {
+  color: #093;
+}
+
+footer small {
+  float: right;
+}
+
+footer img.brand-icon {
+  width: 17px;
+  height: 17px;
+}
+
