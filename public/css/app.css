@@ -10647,15 +10647,31 @@ a.text-dark:focus {
 body {
   font-size: 14px;
   font-weight: normal;
+  color: black;
 }
 
-nav.navbar-expand-lg {
-  margin-bottom: 30px;
+/* nav */
+
+nav.navbar.navbar-expand-lg {
+  margin-bottom: 20px;
+}
+
+nav.navbar.navbar-expand-lg a.navbar-brand {
+  font-size: 20px;
+  color: White;
+}
+
+nav.navbar.navbar-expand-lg li.nav-item {
+  font-size: 15px;
+}
+
+nav.navbar.navbar-expand-lg li.nav-item a.nav-link {
+  color: white;
 }
 
 /* footer */
 
-footer {
+footer.footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
@@ -10664,20 +10680,42 @@ footer {
   font-weight: bold;
 }
 
-footer a {
-  color: #000;
+footer.footer a {
+  color: black;
 }
 
-footer a:hover {
-  color: #093;
+footer.footer a:hover {
+  color: red;
 }
 
-footer small {
-  float: right;
-}
-
-footer img.brand-icon {
+footer.footer img.brand-icon {
   width: 17px;
   height: 17px;
+}
+
+/* User gravatar */
+
+section.user_info {
+  padding-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+section.user_info .gravatar {
+  float: none;
+  max-width: 70px;
+}
+
+section.user_info h1 {
+  font-size: 1.4em;
+  letter-spacing: -1px;
+  margin-bottom: 3px;
+  margin-top: 15px;
+}
+
+.gravatar {
+  float: left;
+  max-width: 50px;
+  border-radius: 50%;
 }
 
